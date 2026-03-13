@@ -1,5 +1,9 @@
 # Kinesiology Demo — Arthrokinematics Visualizer
 
+**Author:** Michael McCarthy, mbmccart@utica.edu
+
+**Purpose:** Built for demonstration purposes to show Occupational Therapy faculty at Utica University how AI can help us build tools and content to help teach students.
+
 An interactive browser-based 3D visualization of arthrokinematic principles for undergraduate Kinesiology education. Built with [Three.js](https://threejs.org/) and [Vite](https://vitejs.dev/).
 
 ## What It Teaches
@@ -48,6 +52,19 @@ Open your browser to `http://localhost:5173`
 npm run build
 # Output in dist/ — upload to any static host or LMS file manager
 ```
+
+### Live Demo
+
+**[http://kinesiology-demo-utica.surge.sh/](http://kinesiology-demo-utica.surge.sh/)**
+
+### Deploying / Updating the Live Demo (surge.sh)
+
+```bash
+npm run build
+npx surge dist/ kinesiology-demo-utica.surge.sh
+```
+
+Requires a free [surge.sh](https://surge.sh) account. First run will prompt for email and password.
 
 ## Project Structure
 
